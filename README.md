@@ -16,7 +16,7 @@ The following scope describes the work to develop the local Geary c function in 
 
 - the design of local Moran’s I and local Geary c<sup>1</sup>,
 - localmoran.R script in **spdep** repository<sup>2</sup>,
-- current available local Moran’s I tutorial<sup>3</sup> in R.
+- current available local Moran’s I tutorial in R<sup>3</sup>.
 
 
 ## Sample Data Description
@@ -24,6 +24,12 @@ The following scope describes the work to develop the local Geary c function in 
 **Dataset Description**: The dataset is the test dataset of tutorial for calculating local Geary c in R. The test requires a continuous variable as the attribute of polygons. The dataset includes Airbnb rents and boundaries of community areas in Chicago.
 
 **Type**: Polygon shapefile; Observations: 77; Variables: 3 
+
+**Variables to be included**: 
+
+- *community* - name of community area 
+- *AREAID* – ID number associated with community area 
+- *price_pp* – price per person of Airbnb
 
 **Data Table**:
 
@@ -54,12 +60,6 @@ The following scope describes the work to develop the local Geary c function in 
   </tr>
 </table>
 
-**Variables to be included**: 
-
-- *community* - name of community area 
-- *AREAID* – ID number associated with community area 
-- *price_pp* – price per person of Airbnb
-
 **Geometry**:
 
 Chicago community boundaries
@@ -78,3 +78,5 @@ Chicago community boundaries
 
 
 ## Future Work
+
+Build up permutation and signficance filter function in R to clone permutation settings in GeoDa. Potential reference is the geary python script in <a href="https://github.com/pysal/pysal/blob/master/pysal/explore/esda/geary.py">pysal repository</a>.
