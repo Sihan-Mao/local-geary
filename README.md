@@ -6,22 +6,6 @@
 
 June 12, 2019
 
-<table>
-<tr>
-  <td>Variable</td>
-  <td>Type</td>
-  <td>Example</td>
-  <td>Source</td>
-</tr>
-  <tr>
-  <td><b>community<b></td>
-  <td>string</td>
-  <td><i>39<i></td>
-  <td><a href="https://geodacenter.github.io/data-and-lab//airbnb_Chicago-2015">Chicago Data Portal</a></td>
-</tr>
-</table>
-
-
 ## Overview
 
 R is well equipped with spatial operation tools. Spatial statistics, however, are not fully integrated into R environment. The objective of this project is to develop an R Notebook Tutorial to compute and visualize univariate local Geary c statistic. Success of this project would entail that the notebook tutorial is workable and effective enough to replicate the GeoDa local Geary c functions.
@@ -40,6 +24,35 @@ The following scope describes the work to develop the local Geary c function in 
 **Dataset Description**: The dataset is the test dataset of tutorial for calculating local Geary c in R. The test requires a continuous variable as the attribute of polygons. The dataset includes Airbnb rents and boundaries of community areas in Chicago.
 
 **Type**: Polygon shapefile; Observations: 77; Variables: 3 
+
+**Data Table**:
+
+<table>
+  <tr>
+    <td>Variable</td>
+    <td>Type</td>
+    <td>Example</td>
+    <td>Source</td>
+  </tr>
+  <tr>
+    <td><b>community<b></td>
+    <td>string</td>
+    <td><i>Kenwood<i></td>
+    <td><a href="https://geodacenter.github.io/data-and-lab//airbnb_Chicago-2015">Chicago Data Portal</a></td>
+  </tr>
+  <tr>
+    <td><b>AREAID<b></td>
+    <td>int</td>
+    <td><i>39<i></td>
+    <td><a href="https://geodacenter.github.io/data-and-lab//airbnb_Chicago-2015">Chicago Data Portal</a></td>
+  </tr>
+      <tr>
+    <td><b>price_pp<b></td>
+    <td>double</td>
+    <td><i>77.991453<i></td>
+    <td><a href="http://insideairbnb.com/get-the-data.html">Inside Airbnb</a></td>
+  </tr>
+</table>
 
 **Variables to be included**: 
 
