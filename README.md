@@ -8,10 +8,16 @@ June 12, 2019
 
 <table>
 <tr>
-  <td>Tested Operating Systems</td>
-  <td>
-       Ubuntu, macOS
-  </td>
+  <td>Variable</td>
+  <td>Type</td>
+  <td>Example</td>
+  <td>Source</td>
+</tr>
+  <tr>
+  <td><b>community<b></td>
+  <td>string</td>
+  <td><i>39<i></td>
+  <td><a href="https://geodacenter.github.io/data-and-lab//airbnb_Chicago-2015">Chicago Data Portal</a></td>
 </tr>
 </table>
 
