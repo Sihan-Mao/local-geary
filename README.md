@@ -7,6 +7,8 @@
 
 June 12, 2019
 
+Project File: [local-geary-c.ipynb](../master/local-geary-c.ipynb)
+
 ## Overview
 
 R is well equipped with spatial operation tools. Spatial statistics, however, are not fully integrated into R environment. The objective of this project is to develop an R Notebook Tutorial to compute and visualize univariate local Geary c statistic. Success of this project would entail that the notebook tutorial is workable and effective enough to replicate the GeoDa local Geary c functions.
