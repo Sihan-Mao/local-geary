@@ -1,8 +1,9 @@
 # Local Geary c in R
 
-*Ali Syed* zasyed@uchicago.edu Geographical Sciences and Economics majors, College of the University of Chicago
-
 *Sihan Mao* sihan@uchicago.edu Master in Public Policy Candidate, the University of Chicago Harris School of Public Policy
+
+
+*Ali Syed* zasyed@uchicago.edu Geographical Sciences and Economics majors, College of the University of Chicago
 
 June 12, 2019
 
